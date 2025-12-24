@@ -8,22 +8,11 @@ Requisitos Previos
 2. Descargar los modelos necesarios
     bashollama pull qwen2.5
     ollama pull llama3.2:3b
+
 3. Instalar dependencias de Python
     bashpip install -r requirements.txt
 
 Cómo Ejecutar
     python .\main.py
-
-Estructura del Proyecto
-.
-├── agents/
-│   ├── curatorAgent.py       # Agente de análisis profundo
-│   ├── investigatorAgent.py  # Agente de investigación inicial
-│   ├── reporterAgent.py      # Agente generador de reportes
-│   └── supervisorAgent.py    # Agente supervisor
-├── main.py                   # Punto de entrada principal
-├── tools.py                  # Herramientas de búsqueda
-├── requirements.txt          # Dependencias
-└── .env                      # Variables de entorno (crear si es necesario)
 
 Los archivos __pycache__ están deshabilitados por defecto
